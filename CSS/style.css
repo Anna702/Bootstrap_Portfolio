@@ -1,0 +1,13 @@
+.jumbotron {
+  background-image: url(/images/hero-banner.png);
+  background-size: cover;
+  min-height: 200px;
+}
+
+.jumbotron-h1 {
+  color: aliceblue;
+}
+
+.jumbotron-p {
+    color:aliceblue
+}
