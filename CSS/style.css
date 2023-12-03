@@ -1,13 +1,9 @@
-.jumbotron {
-  background-image: url(/images/hero-banner.png);
-  background-size: cover;
-  min-height: 200px;
+.jumbo-h2 {
+  color: #e86b43;
 }
 
-.jumbotron-h1 {
-  color: aliceblue;
-}
-
-.jumbotron-p {
-    color:aliceblue
+.app1_card {
+  background-color: black;
+  opacity: 0.7;
+ 
 }
