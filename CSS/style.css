@@ -1,9 +1,39 @@
-.jumbo-h2 {
-  color: #e86b43;
+body {
+  background-color: #fdf6eb;
 }
 
-.app1_card {
-  background-color: black;
-  opacity: 0.7;
- 
+.container-fluid {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.jumbotron {
+  background-color: #e86b43;
+  border-radius: 10%;
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+/* CARDS */
+
+.card h3 {
+  color: #e86b43;
+  font-weight: bolder;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 5%;
+}
+
+/* CV-download */
+
+.cv-download {
+  background-color: #e86b43;
 }
