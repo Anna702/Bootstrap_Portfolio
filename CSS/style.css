@@ -20,21 +20,12 @@ body {
 }
 
 .nav-item {
-  border: 2px solid black;
-  border-radius: 5px;
   margin: 5px;
-  background-color: #ea6e3a;
-}
-
-.nav-item:visited {
-  border: 2px solid black;
+  background-color: #FBF2B3;
   border-radius: 5px;
-  margin: 5px;
-  background-color: #ea6e3a;
 }
 
 .nav-item:hover {
-  border: 2px solid #6a5f64;
   background-color: #6a5f64;
   border-radius: 5px;
   margin: 5px;
@@ -52,7 +43,7 @@ body {
 }
 
 .nav-link:hover {
-  color:#ea6e3a
+  color: #FBF2B3;
 }
 
 .dropdown-menuCustom:visited {
@@ -73,7 +64,7 @@ body {
 .dropdown-toggleCustom:hover {
   border: 2px solid #6a5f64;
   background-color: #6a5f64 ;
-  color:#ea6e3a;
+  color: #FBF2B3;;
 }
 
 .dropdown-item:hover {
@@ -82,14 +73,37 @@ body {
   font-family: "Russo One", sans-serif;
 }
 
+.dropdown-menu {
+  background-color: #FBF2B3;
+}
+
 /* END NAV */
 
 /* Jumbotron */
 
-/* .jumbotron {
+.jumbotron {
+  margin-bottom: 30px;
+}
+
+.jumboPic {
+  max-height: 310px;
+  padding-bottom: 10px;
+}
+
+#about_me {
+  padding: 0 20px;
+}
+
+.textMarks {
   background-color: #e86b43;
-  border-radius: 10%;
-} */
+  color: #FBF2B3;
+  border-radius: 7px;
+  padding: 1.5px 4px;
+}
+
+.jumbo-h3 {
+  font-family: "Russo One", sans-serif;
+}
 
 /* CARDS */
 
