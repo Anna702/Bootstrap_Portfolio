@@ -4,6 +4,10 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+.headerCustom {
+  margin-bottom: 30px;
+}
+
 /* NAV */
 
 .img-logo {
@@ -47,28 +51,37 @@ body {
   font-family: "Russo One", sans-serif;
 }
 
+.nav-link:hover {
+  color:#ea6e3a
+}
+
 .dropdown-menuCustom:visited {
-  background-color: #6a5f64;
+  color: #6a5f64; 
 }
 
 .dropdown-menuCustom:hover {
-  background-color: #6a5f64;
-}
-
-.nav-link:hover {
-  color: #ea6e3a;
-  font-family: "Russo One", sans-serif;
+  color: #6a5f64;
+ 
 }
 
 .dropdown-toggleCustom:visited {
   border: 2px solid #6a5f64;
-  background-color: #6a5f64;
+  background-color: #6a5f64 !important;
+  color:black;
 }
 
 .dropdown-toggleCustom:hover {
   border: 2px solid #6a5f64;
-  background-color: #6a5f64;
+  background-color: #6a5f64 ;
+  color:#ea6e3a;
 }
+
+.dropdown-item:hover {
+  background-color: #6a5f64;
+  color:white;
+  font-family: "Russo One", sans-serif;
+}
+
 /* END NAV */
 
 /* Jumbotron */
