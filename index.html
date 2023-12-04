@@ -16,33 +16,25 @@
   </head>
 
   <body>
-    <div class="container-md">
+<header>
+<!-- nav -->
+    <nav class="navbar navbar-expand-lg navCustom">
+      <div class="container-fluid">
+        <a class="navbar-logo" href="#contacts"><img src="./images/header logo pic.png" alt="navbar-logo" class="img-logo"></a>
 
-<!------------- header -------------->
-        <header class="row header">
-<!------------  name (logo) --------->
-            <div class="col-lg-6 col-md-12 header-logo"> 
-                    <div class="container-fluid col-sm-12 header-part-back" >
-                        <h1>Anna Chernova</h1>
-                        <p>Front-end developer</p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12 col-sm-8 col-xs-2">
-<!--------- Nav -------------------->
-             <nav class=" navbar">
-      
-<!------- nav buttons --------->
-        <ul class="nav container-fluid">
+        <!-- nav buttons -->
+        <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link active" href="#jumbotron">About me</a>
+            <a class="nav-link" aria-current="page" href="#jumbotron">About me</a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#">Skills</a>
           </li>
+
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-            <div class="dropdown-menu">
+            <a class="nav-link dropdown-toggle dropdown-toggleCustom" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+            <div class="dropdown-menu dropdown-menuCustom">
               <a class="dropdown-item" href="#app1">App 1</a>
               <a class="dropdown-item" href="#app2">App 2</a>
               <a class="dropdown-item" href="#app3">App 3</a>
@@ -50,23 +42,36 @@
               <a class="dropdown-item" href="#app5">App 5</a>
             </div>
           </li>
-          
+
           <li class="nav-item">
             <a class="nav-link" href="#">CV</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link" href="#contacts">Contacts</a>
           </li>
           </li>
         </ul>
-<!-------END nav buttons --------->
+      </div>
     </nav>
+    <!-- END nav -->
+</header>
 
-</div>
-<!---------END Nav ----------->
 
-        </header> 
-<!-------------END header -------------->
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    <div class="container-md"> -->
+
 
 
 <!------------ Jumbotron --------------->
@@ -200,7 +205,7 @@
 <!-- END CV Download -->
 
 <!-- contacts -->
-<div class="contacts container-fluid">
+<div id="contacts" class="contacts container-fluid">
     <div class="row">
         <h3 class="col">
             Contact me

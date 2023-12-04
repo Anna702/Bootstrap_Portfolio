@@ -1,20 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500&family=Rubik&family=Russo+One&display=swap");
+
 body {
-  background-color: #fdf6eb;
+  font-family: "Rubik", sans-serif;
 }
 
-.container-fluid {
-  --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
+/* NAV */
+
+.img-logo {
+  height: 80px;
 }
 
-.jumbotron {
+.navCustom {
+  background-color: #ea6e3a;
+  padding: 15px;
+}
+
+.nav-item {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #ea6e3a;
+}
+
+.nav-item:visited {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #ea6e3a;
+}
+
+.nav-item:hover {
+  border: 2px solid #6a5f64;
+  background-color: #6a5f64;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.nav-link,
+.dropdown-menuCustom {
+  color: black;
+  font-family: "Russo One", sans-serif;
+}
+
+.nav-link:visited {
+  color: black;
+  font-family: "Russo One", sans-serif;
+}
+
+.dropdown-menuCustom:visited {
+  background-color: #6a5f64;
+}
+
+.dropdown-menuCustom:hover {
+  background-color: #6a5f64;
+}
+
+.nav-link:hover {
+  color: #ea6e3a;
+  font-family: "Russo One", sans-serif;
+}
+
+.dropdown-toggleCustom:visited {
+  border: 2px solid #6a5f64;
+  background-color: #6a5f64;
+}
+
+.dropdown-toggleCustom:hover {
+  border: 2px solid #6a5f64;
+  background-color: #6a5f64;
+}
+/* END NAV */
+
+/* Jumbotron */
+
+/* .jumbotron {
   background-color: #e86b43;
   border-radius: 10%;
-}
-
-.row {
-  --bs-gutter-x: 0rem;
-}
+} */
 
 /* CARDS */
 
