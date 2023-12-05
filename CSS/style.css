@@ -5,7 +5,23 @@ body {
 }
 
 .pageWrapper {
-  padding: 20px;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .pageWrapper {
+    padding: 20px;
+  }
+  .jumbo-h2,
+  .jumbo-h3 {
+    text-align: center;
+  }
+  .jumbo-h2 {
+    margin-top: 10px;
+  }
+  .jumbo-h3 {
+    margin-bottom: 15px;
+  }
 }
 
 .headerCustom {
@@ -95,6 +111,8 @@ body {
 .jumboPic {
   max-height: 310px;
   padding-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 0px;
 }
 
 #about_me {
@@ -132,8 +150,13 @@ body {
 
 /* Portfolio */
 
-.topPortfolioRow, .col-relative-app {
+.topPortfolioRow,
+.col-relative-app {
   position: relative;
+}
+
+.col-relative-app {
+  margin: 10px 0px;
 }
 
 .app-main,
@@ -142,6 +165,7 @@ body {
   background-size: cover;
   background-position: center center;
   height: 250px;
+  border-radius: 5px;
 }
 
 .app-main {
@@ -168,8 +192,27 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  right: 0; 
+  right: 0;
+  left: 0.75rem;
   width: 100%;
+  background-color: #ea6e3a;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 0;
+  padding: 15px 10px 5px 10px;
+}
+
+.app-text:hover {
+  border: solid black 4px;
+  background-color: #fbf2b3;
+}
+
+.app-main:hover,
+.app-02:hover,
+.app-03:hover,
+.app-04:hover,
+.app-05:hover {
+  border: black solid 4px;
 }
 
 /* END Portfolio */
