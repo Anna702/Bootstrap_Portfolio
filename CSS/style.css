@@ -130,21 +130,49 @@ body {
 
 /* END skills */
 
-/* CARDS */
+/* Portfolio */
 
-.card h3 {
-  color: #e86b43;
-  font-weight: bolder;
+.topPortfolioRow, .col-relative-app {
+  position: relative;
 }
 
-.card img {
-  height: 200px;
-  object-fit: cover;
+.app-main,
+.portfolio-app-small {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 250px;
 }
 
-.card {
-  border-radius: 5%;
+.app-main {
+  background-image: url(/images/Screenshot\ 2023-12-03\ at\ 15.39.30.png);
 }
+
+.app-02 {
+  background-image: url(/images/Screenshot\ 2023-12-02\ at\ 03.03.22.png);
+}
+
+.app-03 {
+  background-image: url(/images/Screenshot\ 2023-12-02\ at\ 03.01.20.png);
+}
+
+.app-04 {
+  background-image: url(/images/Screenshot\ 2023-12-01\ at\ 19.09.10.png);
+}
+
+.app-05 {
+  background-image: url(/images/Screenshot\ 2023-11-30\ at\ 16.58.03.png);
+}
+
+.app-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  width: 100%;
+}
+
+/* END Portfolio */
 
 /* CV-download */
 
