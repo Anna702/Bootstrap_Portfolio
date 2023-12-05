@@ -163,6 +163,11 @@ body {
   position: relative;
 }
 
+.topPortfolioRow {
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
 .col-relative-app {
   margin: 10px 0px;
 }
@@ -174,26 +179,27 @@ body {
   background-position: center center;
   height: 250px;
   border-radius: 5px;
+  border: solid black 3px;
 }
 
 .app-main {
-  background-image: url(/images/Screenshot\ 2023-12-03\ at\ 15.39.30.png);
+  background-image: url(/images/app-main-pic.png);
 }
 
 .app-02 {
-  background-image: url(/images/Screenshot\ 2023-12-02\ at\ 03.03.22.png);
+  background-image: url(/images/app-2-pic-code-refactor.png);
 }
 
 .app-03 {
-  background-image: url(/images/Screenshot\ 2023-12-02\ at\ 03.01.20.png);
+  background-image: url(/images/app-3-pic-prework-guide.png);
 }
 
 .app-04 {
-  background-image: url(/images/Screenshot\ 2023-12-01\ at\ 19.09.10.png);
+  background-image: url(/images/app-4-pic-coming-soon.png);
 }
 
 .app-05 {
-  background-image: url(/images/Screenshot\ 2023-11-30\ at\ 16.58.03.png);
+  background-image: url(/images/app-5-pic-coming-soon.png);
 }
 
 .app-text {
