@@ -226,8 +226,17 @@ body {
 
 /* CV-download */
 
-.cv-download {
-  background-color: #e86b43;
+.cvCustom {
+  margin-bottom: 2%;
+}
+
+/* contacts */
+.iconCustom {
+  padding-right: 5px;
+}
+
+.li a {
+  text-decoration: none !important;
 }
 
 /* footer */
