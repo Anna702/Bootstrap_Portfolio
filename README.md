@@ -22,7 +22,7 @@ Lovely Video Bootstrap Guide (RUS) - [@annblok_webdev](https://www.youtube.com/w
 
 ## Project Status
 
-Deployed:
+Deployed: https://github.com/Anna702/Bootstrap_Portfolio
 
 ## Project Screenshot
 
