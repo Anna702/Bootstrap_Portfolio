@@ -4,8 +4,16 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+.pageWrapper {
+  padding: 20px;
+}
+
 .headerCustom {
   margin-bottom: 30px;
+}
+
+.section-h3 {
+  font-family: "Russo One", sans-serif;
 }
 
 /* NAV */
@@ -21,7 +29,7 @@ body {
 
 .nav-item {
   margin: 5px;
-  background-color: #FBF2B3;
+  background-color: #fbf2b3;
   border-radius: 5px;
 }
 
@@ -43,38 +51,37 @@ body {
 }
 
 .nav-link:hover {
-  color: #FBF2B3;
+  color: #fbf2b3;
 }
 
 .dropdown-menuCustom:visited {
-  color: #6a5f64; 
+  color: #6a5f64;
 }
 
 .dropdown-menuCustom:hover {
   color: #6a5f64;
- 
 }
 
 .dropdown-toggleCustom:visited {
   border: 2px solid #6a5f64;
   background-color: #6a5f64 !important;
-  color:black;
+  color: black;
 }
 
 .dropdown-toggleCustom:hover {
   border: 2px solid #6a5f64;
-  background-color: #6a5f64 ;
-  color: #FBF2B3;;
+  background-color: #6a5f64;
+  color: #fbf2b3;
 }
 
 .dropdown-item:hover {
   background-color: #6a5f64;
-  color:white;
+  color: white;
   font-family: "Russo One", sans-serif;
 }
 
 .dropdown-menu {
-  background-color: #FBF2B3;
+  background-color: #fbf2b3;
 }
 
 /* END NAV */
@@ -96,7 +103,7 @@ body {
 
 .textMarks {
   background-color: #e86b43;
-  color: #FBF2B3;
+  color: #fbf2b3;
   border-radius: 7px;
   padding: 1.5px 4px;
 }
@@ -104,6 +111,24 @@ body {
 .jumbo-h3 {
   font-family: "Russo One", sans-serif;
 }
+
+.jumbo-p {
+  width: 100%;
+  text-align: justify;
+}
+/* END Jumbotron */
+
+/* skills */
+
+.buttonsContainer button {
+  margin: 3px;
+}
+
+.btn-light-withBorder {
+  border: solid black 1px;
+}
+
+/* END skills */
 
 /* CARDS */
 
