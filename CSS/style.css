@@ -183,7 +183,7 @@ body {
 }
 
 .app-main {
-  background-image: url(/images/app-main-pic.png);
+  background-image: url("/images/app-main-pic.png");
 }
 
 .app-02 {
