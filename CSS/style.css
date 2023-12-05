@@ -10,7 +10,7 @@ body {
 
 @media only screen and (max-width: 992px) {
   .pageWrapper {
-    padding: 20px;
+    padding: 30px;
   }
   .jumbo-h2,
   .jumbo-h3 {
@@ -78,6 +78,10 @@ body {
   color: #6a5f64;
 }
 
+.dropdown-toggleCustom {
+  text-align: end;
+}
+
 .dropdown-toggleCustom:visited {
   border: 2px solid #6a5f64;
   background-color: #6a5f64 !important;
@@ -137,6 +141,10 @@ body {
 /* END Jumbotron */
 
 /* skills */
+
+.skillsCustom {
+  padding-bottom: 20px;
+}
 
 .buttonsContainer button {
   margin: 3px;
@@ -214,7 +222,6 @@ body {
 .app-05:hover {
   border: black solid 4px;
 }
-
 /* END Portfolio */
 
 /* CV-download */
@@ -222,3 +229,17 @@ body {
 .cv-download {
   background-color: #e86b43;
 }
+
+/* footer */
+.footer-p-1 {
+  margin-bottom: 0;
+  margin-top: 12px;
+  font-size: smaller;
+}
+
+.footer-p-2 {
+  margin-bottom: 0;
+  font-size: small;
+}
+
+/* END footer */
