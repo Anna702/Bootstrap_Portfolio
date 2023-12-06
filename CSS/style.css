@@ -8,22 +8,6 @@ body {
   padding: 50px;
 }
 
-@media only screen and (max-width: 992px) {
-  .pageWrapper {
-    padding: 30px;
-  }
-  .jumbo-h2,
-  .jumbo-h3 {
-    text-align: center;
-  }
-  .jumbo-h2 {
-    margin-top: 10px;
-  }
-  .jumbo-h3 {
-    margin-bottom: 15px;
-  }
-}
-
 .headerCustom {
   margin-bottom: 30px;
 }
@@ -183,23 +167,23 @@ body {
 }
 
 .app-main {
-  background-image: url("./images/app-main-pic.png");
+  background-image: url("images/app-main-pic.png");
 }
 
 .app-02 {
-  background-image: url("/images/app-2-pic-code-refactor.png");
+  background-image: url("images/app-2-pic-code-refactor.png");
 }
 
 .app-03 {
-  background-image: url("/Users/anna/bootcamp_EdX/HOMEWORK/Bootstrap_Portfolio/images/app-2-pic-code-refactor.png");
+  background-image: url("images/app-3-pic-prework-guide.png");
 }
 
 .app-04 {
-  background-image: url("/images/app-4-pic-coming-soon.png");
+  background-image: url("images/app-4-pic-coming-soon.png");
 }
 
 .app-05 {
-  background-image: url("/images/app-5-pic-coming-soon.png");
+  background-image: url("images/app-5-pic-coming-soon.png");
 }
 
 .app-text {
@@ -258,3 +242,19 @@ body {
 }
 
 /* END footer */
+
+@media only screen and (max-width: 992px) {
+  .pageWrapper {
+    padding: 30px;
+  }
+  .jumbo-h2,
+  .jumbo-h3 {
+    text-align: center;
+  }
+  .jumbo-h2 {
+    margin-top: 10px;
+  }
+  .jumbo-h3 {
+    margin-bottom: 15px;
+  }
+}
