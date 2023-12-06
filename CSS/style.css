@@ -167,23 +167,23 @@ body {
 }
 
 .app-main {
-  background-image: url("images/app-main-pic.png");
+  background-image: url("../images/app-main-pic.png");
 }
 
 .app-02 {
-  background-image: url("images/app-2-pic-code-refactor.png");
+  background-image: url("../images/app-2-pic-code-refactor.png");
 }
 
 .app-03 {
-  background-image: url("images/app-3-pic-prework-guide.png");
+  background-image: url("../images/app-3-pic-prework-guide.png");
 }
 
 .app-04 {
-  background-image: url("images/app-4-pic-coming-soon.png");
+  background-image: url("../images/app-4-pic-coming-soon.png");
 }
 
 .app-05 {
-  background-image: url("images/app-5-pic-coming-soon.png");
+  background-image: url("../images/app-5-pic-coming-soon.png");
 }
 
 .app-text {
