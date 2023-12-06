@@ -16,6 +16,9 @@ During this challenge I :
 
 Email, LinkedIn, GitHub and arrow Icons - [icons](https://icons8.com/icons).
 
+Bespoke Placeholders and Pictures was created by me with [Canva](https://www.canva.com/) and AI-powered App [Magic Media](
+https://www.canva.com/en_gb/help/using-magic-media/).
+
 Online tutoring sessions - [EdX Skills Bootcamp in Front-End Web Development](https://www.edx.org/boot-camps/coding/skills-bootcamp-in-front-end-web-development).
 
 Lovely Video Bootstrap Guide (RUS) - [@annblok_webdev](https://www.youtube.com/watch?v=6ntMs1pylZs).
